@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Your Document Title</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-hiking"></i>Yaatri.</a>
+      <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#packages">PACKAGES</a>
+        <a href="#reviews">REVIEWS</a>
+      </nav>
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars-progress"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <div id="search-btn" class="fas fa-magnifying-glass-location"></div>
+      </div>
+    </header>
+
+    <!-- Search form -->
+    <div class="search-form">
+      <div id="close-search" class="fas fa-times"></div>
+      <form action="">
+        <input
+          type="search"
+          name=""
+          placeholder="Search here..."
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+    </div>
+
+    <!-- Home-section -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="
+                background: url(images/01.jpg) no-repeat;
+                background-size: cover;
+              "
+            >
+              <div class="content">
+                <span>NEVER Stop.</span>
+                <h3>Exploring</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Aliquid temporibus sed deserunt unde facere sapiente ullam
+                  expedit
+                </p>
+                <a href="#" class="btn">get started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box second"
+              style="
+                background: url(images/002.jpg) no-repeat;
+                background-size: cover;
+              "
+            >
+              <div class="content dusra">
+                <span>Make Tour</span>
+                <h3>Amazing</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Aliquid temporibus sed deserunt unde facere sapiente ullam
+                  expedit
+                </p>
+                <a href="#" class="btn">get started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box forth"
+              style="
+                background: url(images/02.jpg) no-repeat;
+                background-size: cover;
+              "
+            >
+              <div class="content forth">
+                <span>Explore the</span>
+                <h3>New world</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Aliquid temporibus sed deserunt unde facere sapiente ullam
+                  expedit
+                </p>
+                <a href="#" class="btn">get started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div
+              class="box"
+              style="
+                background: url(images/1st.jpeg) no-repeat;
+                background-size: cover;
+              "
+            >
+              <div class="content last">
+                <span>Make new.</span>
+                <h3>memorys</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Aliquid temporibus sed deserunt unde facere sapiente ullam
+                  expedit
+                </p>
+                <a href="#" class="btn">get started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- min-Booking-section -->
+    <h2 class="heading mini-Booking-H2">Mini Booking section .</h2>
+    <section class="book-form" id="book-form">
+      <form id="B" action="">
+        <div class="inputBox">
+          <span>Where to ?</span>
+          <input type="text" placeholder="place name" value="" />
+        </div>
+        <div class="inputBox">
+          <span>When?</span>
+          <input type="date" value="" />
+        </div>
+        <div class="inputBox">
+          <span>how many ?</span>
+          <input type="number" placeholder="number of travelers" value="" />
+        </div>
+        <input type="submit" value="find now" class="Btn" />
+      </form>
+    </section>
+
+    <!-- categgory-section -->
+    <section class="category">
+      <h1 class="heading">Adventures idea!</h1>
+      <div id="A">
+        <div class="box-container">
+          <div class="Box">
+            <img src="images/A0.jpg" alt="" />
+            <h3>Searfeing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              quae!
+            </p>
+            <a href="#" class="btn">read More</a>
+          </div>
+        </div>
+        <div class="box-container">
+          <div class="Box">
+            <img src="images/A2.jpg" alt="" />
+            <h3>kayaking</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              quae!
+            </p>
+            <a href="#" class="btn">read More</a>
+          </div>
+        </div>
+
+        <div class="box-container">
+          <div class="Box">
+            <img src="images/A3.jpg" alt="" />
+            <h3>Jungle sufary</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              quae!
+            </p>
+            <a href="#" class="btn">read More</a>
+          </div>
+        </div>
+
+        <div class="box-container">
+          <div class="Box">
+            <img src="images/A4.jpg" alt="" />
+            <h3>forest walk</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+              quae!
+            </p>
+            <a href="#" class="btn">read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- discover-section -->
+    <section class="discover" id="discover">
+      <div class="section__container discover__container">
+        <h2 class="section__header">Discover the most engaging places</h2>
+        <p class="section__subheader">
+          Let's see the world with us with you and your family.
+        </p>
+        <div class="discover__grid">
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="images/norway.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Norway</h4>
+              <p>
+                Discover the untamed beauty of Norway, a land where rugged
+                mountains, and enchanting northern lights paint a surreal
+                backdrop.
+              </p>
+              <button class="discover__btn">
+                Discover More <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="images/london.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>London</h4>
+              <p>
+                From urban rock climbing to twilight cycling through royal
+                parks, London beckons adventure enthusiasts to embrace
+                opportunities.
+              </p>
+              <button class="discover__btn">
+                Discover More <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="discover__card">
+            <div class="discover__image">
+              <img src="images/japan.jpg" alt="discover" />
+            </div>
+            <div class="discover__card__content">
+              <h4>Japan</h4>
+              <p>
+                From scaling the iconic peaks of Mount Fuji to immersing in the
+                serenity, Japan offers adventurers a captivating cultural
+                treasure.
+              </p>
+              <button class="discover__btn">
+                Discover More <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery-sectione -->
+    <section class="gallery" id="gallery">
+      <div class="heading E1">
+        <span>Gallery photos</span>
+        <h1>We record memories</h1>
+        <h1>Explore the most beautiful places in the world.</h1>
+      </div>
+      <div class="Box-container">
+        <div class="column">
+          <div class="boox">
+            <img src="images/g1.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>iceland</h3> -->
+          </div>
+
+          <div class="boox">
+            <img src="images/gallery2.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>greenland</h3> -->
+          </div>
+
+          <div class="boox">
+            <img src="images/g2.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>Singapore</h3> -->
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="boox">
+            <img src="images/gallery4.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>India</h3> -->
+          </div>
+
+          <div class="boox">
+            <img src="images/gallery5.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>Thailand</h3> -->
+          </div>
+
+          <div class="boox">
+            <img src="images/gallery6.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>Alaska</h3> -->
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="boox">
+            <img src="images/gallery7.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>Iceland</h3> -->
+          </div>
+
+          <div class="boox">
+            <img src="images/gallery8.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>Alaska</h3> -->
+          </div>
+
+          <div class="boox">
+            <img src="images/gallery9.jpg" alt="" />
+            <!-- <span>travel spot</span>
+            <h3>Lakshadweep</h3> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About-section -->
+    <section class="about" id="about">
+      <div id="c" class="section__container about__container">
+        <div class="about__content">
+          <div id="C">
+            <h2 class="section__header">About us .</h2>
+            <p class="section__subheader P-text">
+              Our mission is to ignite the spirit of discovery in every
+              traveler's heart, offering meticulously crafted itineraries that
+              blend adrenaline-pumping activities with awe-inspiring landscapes.
+              With a team of seasoned globetrotters, we ensure that every
+              expedition is infused with excitement, grace our planet. Embark on
+              a voyage of a lifetime with us, as we redefine the art of
+              exploration.
+            </p>
+            <div class="about__flex">
+              <div class="about__card">
+                <h4 style="color: #159782">268</h4>
+                <p>Completed Trips</p>
+              </div>
+              <div class="about__card">
+                <h4 style="color: #e7ab1e">140</h4>
+                <p>Tour Guides</p>
+              </div>
+              <div class="about__card">
+                <h4 style="color: #8f57ff">153</h4>
+                <p>Destinations</p>
+              </div>
+            </div>
+            <button class="btn">
+              Read More <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="about__image">
+          <img src="images/about.jpg" alt="about" />
+        </div>
+      </div>
+    </section>
+
+    <!-- services-section -->
+    <section class="services">
+      <h1 class="heading">What we offers</h1>
+      <div class="boxx-container">
+        <div class="boxx">
+          <img src="images/S15.jpg" alt="" />
+          <h3>complete guide</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            natus.
+          </p>
+        </div>
+
+        <div class="boxx">
+          <img src="images/S14.jpg" alt="" />
+          <h3>coustem packages</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            natus.
+          </p>
+        </div>
+
+        <div class="boxx">
+          <img src="images/S12.jpg" alt="" />
+          <h3>train guides</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            natus.
+          </p>
+        </div>
+
+        <div class="boxx">
+          <img src="images/S10.jpg" alt="" />
+          <h3>24/7 support</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            natus.
+          </p>
+        </div>
+
+        <div class="boxx">
+          <img src="images/S13.jpg" alt="" />
+          <h3>family Trips</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            natus.
+          </p>
+        </div>
+
+        <div class="boxx">
+          <img src="images/0s.jpg" alt="" />
+          <h3>best deals</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            natus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="section__container contact__container">
+        <div class="contact__col">
+          <h4>Contact a travel researcher</h4>
+          <p>We always aim to reply within 24 hours.</p>
+        </div>
+        <div class="contact__col">
+          <div class="contact__card">
+            <span><i class="fas fa-phone"></i> </span>
+            <h4>Call us</h4>
+            <h5>+91 9876543210</h5>
+            <p>We are online now</p>
+          </div>
+        </div>
+        <div class="contact__col">
+          <div class="contact__card">
+            <span><i class="fas fa-envelope"></i> </span>
+            <h4>Send us an enquiry</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer-section -->
+    <section class="footer">
+      <div class="section__container footer__container">
+        <h4>Yaatri.</h4>
+        <div class="footer__socials">
+          <span>
+            <a href="#"><i class="fab fa-facebook"></i> </a>
+          </span>
+          <span>
+            <a href="#"><i class="fab fa-instagram"></i> </a>
+          </span>
+          <span>
+            <a href="#"><i class="fab fa-twitter"></i> </a>
+          </span>
+          <span>
+            <a href="#"><i class="fab fa-linkedin"></i> </a>
+          </span>
+        </div>
+        <p>
+          Cheap Romantic Vacations. Many people feel that there is a limited
+          amount of abundance, wealth, or chance to succeed in life.
+        </p>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#home">Home</a></li>
+          <li class="footer__link"><a href="#about">About</a></li>
+          <li class="footer__link"><a href="#discover">Discover</a></li>
+          <li class="footer__link"><a href="#gallery">Gallery</a></li>
+          <li class="footer__link"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        <span>Copyright © 2024 Yaatri. All rights reserved.</span> <br />
+        <br /><span id="atharv"
+          >Website Related Query / work Contact :
+          (atharvsabale619@gmail.com)</span
+        >
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
